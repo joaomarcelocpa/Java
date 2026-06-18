@@ -1,10 +1,10 @@
 public class Main {
     public static void main(String[] args) {
 
-        double[] lucro = {-2,-3};
-        double[][] restricoes = {{1,1}, {1,2}};
-        double[] limites = {4,6};
-        boolean minimizar = true;
+        double[] lucro = {3,5};
+        double[][] restricoes = {{1,2}, {0,1}};
+        double[] limites = {8,6};
+        boolean minimizar = false;
 
         simplex(lucro, restricoes, limites, minimizar);
     }
